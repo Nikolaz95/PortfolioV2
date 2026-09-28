@@ -1,0 +1,14 @@
+# Netlify reads this file automatically when it builds the site.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Images, JS and CSS built by Vite have a unique name per version, so browsers can cache them forever
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
