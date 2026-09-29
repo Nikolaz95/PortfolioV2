@@ -1,4 +1,5 @@
 import flux from '../assets/images/projects/FluxChat.webp'
+import expense from '../assets/images/projects/ExpenseTracker.webp'
 import movie from '../assets/images/projects/MernMovieTvShow.webp'
 import travel from '../assets/images/projects/MernTravelDairy.webp'
 import oasis from '../assets/images/projects/wildOasis.webp'
@@ -22,6 +23,14 @@ const projects = [
     tech: ['React', 'Redux Toolkit', 'Node.js', 'Express', 'MongoDB', 'Socket.IO', 'JWT', 'Styled Components'],
     demo: 'https://flux-chat-zsz2.onrender.com/',
     source: 'https://github.com/Nikolaz95/ChatApp',
+  },
+  {
+    key: 'expense',
+    category: 'fullstack',
+    image: expense,
+    tech: ['React', 'Redux Toolkit', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Chart.js', 'Styled Components'],
+    demo: 'https://mern-expense-tracker-vylg.onrender.com/',
+    source: 'https://github.com/Nikolaz95/MERN-Expense-Tracker',
   },
   {
     key: 'movie',

@@ -118,6 +118,18 @@ const sv = {
           'Admin-dashboard med statistik och användarhantering',
         ],
       },
+      expense: {
+        title: 'MERN Utgiftskoll',
+        description:
+          'En fullstack-app för privatekonomi. Användare håller koll på inkomster och utgifter, sorterar transaktioner i kategorier och följer sitt saldo med interaktiva diagram — i valfri valuta.',
+        features: [
+          'Registrera inkomster och utgifter med titel, belopp, kategori, datum och beskrivning',
+          'Dashboard med interaktiva diagram (Chart.js) och översikt över inkomster, utgifter och saldo',
+          'Statistik för de senaste 7 dagarna, månaden och året',
+          'Stöd för flera valutor',
+          'JWT-autentisering, profiluppdatering och radering av konto',
+        ],
+      },
       movie: {
         title: 'MERN Filmapp',
         description:

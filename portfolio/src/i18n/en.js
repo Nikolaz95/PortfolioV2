@@ -118,6 +118,18 @@ const en = {
           'Admin dashboard with statistics and user management',
         ],
       },
+      expense: {
+        title: 'MERN Expense Tracker',
+        description:
+          'A full-stack app for personal finance. Users track their income and expenses, sort transactions into categories and follow their balance with interactive charts — in the currency of their choice.',
+        features: [
+          'Track income and expenses with title, amount, category, date and description',
+          'Dashboard with interactive charts (Chart.js) and income, expense and balance overviews',
+          'Statistics for the last 7 days, month and year',
+          'Support for multiple currencies',
+          'JWT authentication, profile updates and account deletion',
+        ],
+      },
       movie: {
         title: 'MERN Movie App',
         description:
