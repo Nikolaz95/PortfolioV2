@@ -3,6 +3,7 @@ import { useTheme } from 'styled-components'
 
 import Header from './components/layout/Header/Header'
 import Footer from './components/layout/Footer/Footer'
+import ScrollToTop from './components/layout/ScrollToTop'
 import Hero from './components/sections/Hero/Hero'
 import About from './components/sections/About/About'
 import Skills from './components/sections/Skills/Skills'
@@ -25,6 +26,7 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
+      <ScrollToTop />
 
       <Toaster
         position="bottom-center"

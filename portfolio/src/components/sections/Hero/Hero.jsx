@@ -5,7 +5,7 @@ import { HiArrowDown, HiDownload } from 'react-icons/hi'
 import { getCv } from '../../../data/cv'
 import { fadeUp, stagger } from '../../../styles/animations'
 import Button from '../../ui/Button'
-import ProfilePhoto from './ProfilePhoto'
+import ProfileBadge from './ProfileBadge'
 import TypedRole from './TypedRole'
 import { Actions, Badge, Greeting, Grid, HeroSocials, Intro, Name, Role, ScrollHint, Text, Wrapper } from './Hero.styles'
 
@@ -41,7 +41,7 @@ export default function Hero() {
           </motion.div>
         </Text>
 
-        <ProfilePhoto alt={t('hero.photoAlt')} />
+        <ProfileBadge />
       </Grid>
 
       <ScrollHint

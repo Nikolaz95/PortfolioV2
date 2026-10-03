@@ -1,9 +1,8 @@
 import { useTranslation } from 'react-i18next'
-import { HiArrowUp } from 'react-icons/hi'
 
 import SECTIONS from '../../../data/sections'
 import { Container, GradientText } from '../../ui/Layout'
-import { Bottom, Brand, FooterSocials, Links, ToTop, Top, Wrapper } from './Footer.styles'
+import { Bottom, Brand, FooterSocials, Links, Top, Wrapper } from './Footer.styles'
 
 export default function Footer() {
   const { t } = useTranslation()
@@ -38,9 +37,6 @@ export default function Footer() {
           <p>
             © {year} Nikola Zovko. {t('footer.rights')}
           </p>
-          <ToTop href="#home">
-            {t('footer.backToTop')} <HiArrowUp />
-          </ToTop>
         </Bottom>
       </Container>
     </Wrapper>

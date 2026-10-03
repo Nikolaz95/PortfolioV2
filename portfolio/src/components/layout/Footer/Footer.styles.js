@@ -66,7 +66,7 @@ export const FooterSocials = styled(SocialLinks)`
 export const Bottom = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 16px;
   margin-top: 40px;
   padding-top: 24px;
@@ -76,16 +76,5 @@ export const Bottom = styled.div`
 
   @media (max-width: ${({ theme }) => theme.breakpoints.md}) {
     flex-direction: column;
-  }
-`
-
-export const ToTop = styled.a`
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  transition: color 0.2s ease;
-
-  &:hover {
-    color: ${({ theme }) => theme.colors.text};
   }
 `
