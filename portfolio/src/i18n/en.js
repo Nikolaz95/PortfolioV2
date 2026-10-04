@@ -186,6 +186,18 @@ const en = {
           'Delete your account',
         ],
       },
+      countdown: {
+        title: 'CountDown',
+        description:
+          'A React app that shows exactly how long is left until New Year, the next public holiday or any date you choose — down to the second, on phone, tablet and desktop.',
+        features: [
+          'New Year countdown with a progress bar and fireworks at midnight',
+          'Public holidays for 100+ countries from the Nager.Date API, with automatic country detection',
+          'Custom countdowns saved in Local Storage',
+          'Date picker for choosing year, month and day in just a few clicks',
+          'Light and dark theme, keyboard navigation and reduced-motion support',
+        ],
+      },
       cart: {
         title: 'Product List with Cart',
         description:

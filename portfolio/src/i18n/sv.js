@@ -186,6 +186,18 @@ const sv = {
           'Radera ditt konto',
         ],
       },
+      countdown: {
+        title: 'CountDown',
+        description:
+          'En React-app som visar exakt hur lång tid det är kvar till nyår, nästa helgdag eller valfritt datum — ner till sekunden, i mobil, surfplatta och dator.',
+        features: [
+          'Nedräkning till nyår med förloppsindikator och fyrverkerier vid midnatt',
+          'Helgdagar för över 100 länder från Nager.Date API, med automatisk landsidentifiering',
+          'Egna nedräkningar som sparas i Local Storage',
+          'Datumväljare där du väljer år, månad och dag med bara några klick',
+          'Ljust och mörkt tema, tangentbordsnavigering och stöd för reducerad rörelse',
+        ],
+      },
       cart: {
         title: 'Produktlista med varukorg',
         description:

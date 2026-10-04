@@ -4,6 +4,7 @@ import movie from '../assets/images/projects/MernMovieTvShow.webp'
 import travel from '../assets/images/projects/MernTravelDairy.webp'
 import oasis from '../assets/images/projects/wildOasis.webp'
 import chat from '../assets/images/projects/ChatApp.webp'
+import countdown from '../assets/images/projects/CountDown.webp'
 import cart from '../assets/images/projects/ProductListRJ.webp'
 import pizza from '../assets/images/projects/FastPizza.webp'
 import country from '../assets/images/projects/CountryApp.webp'
@@ -63,6 +64,14 @@ const projects = [
     tech: ['React Native', 'JavaScript'],
     demo: null,
     source: 'https://github.com/Nikolaz95/Chat-app',
+  },
+  {
+    key: 'countdown',
+    category: 'frontend',
+    image: countdown,
+    tech: ['React', 'JavaScript', 'Styled Components', 'REST API'],
+    demo: 'https://countdownnz.netlify.app/',
+    source: 'https://github.com/Nikolaz95/ReactJS-CountDown',
   },
   {
     key: 'cart',
