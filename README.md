@@ -2,13 +2,13 @@
 
 # 👋 Nikola Zovko — Portfolio
 
-<a href="https://nikolazovko.netlify.app">
+<a href="https://nikolazovkoportfolio.netlify.app/#home">
   <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=24&duration=2800&pause=900&color=8B5CF6&center=true&vCenter=true&width=520&lines=Frontend+Developer;React+Developer;MERN+Stack+Developer" alt="Frontend Developer · React Developer · MERN Stack Developer" />
 </a>
 
 **📍 Stockholm, Sweden · Open to new opportunities**
 
-<a href="https://nikolazovko.netlify.app"><img src="https://img.shields.io/badge/🌐_Visit_the_live_site-8B5CF6?style=for-the-badge" alt="Live site" /></a>
+<a href="https://nikolazovkoportfolio.netlify.app/#home"><img src="https://img.shields.io/badge/🌐_Visit_the_live_site-8B5CF6?style=for-the-badge" alt="Live site" /></a>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nikola-zovko-a50779247/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Nikolaz95)
